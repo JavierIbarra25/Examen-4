@@ -4,7 +4,7 @@ import java.util.Set;
 public class SecuenciaCompleta {
     public static String secuenciaCompleta(String numeros) {
         // Convertir el string a un conjunto de enteros
-        Set<Integer> valores = new HashSet<>();
+        HashSet<Integer> valores = new HashSet<>();
         String[] partes = numeros.split(" ");
         for (String parte : partes) {
             valores.add(Integer.parseInt(parte));
